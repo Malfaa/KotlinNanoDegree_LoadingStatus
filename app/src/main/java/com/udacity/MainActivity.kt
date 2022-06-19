@@ -62,3 +62,9 @@ class MainActivity : AppCompatActivity() {
     }
 
 }
+
+// TODO: Primeiro passo, fazer os xml's do abertos. 
+// TODO: Fazer o Loading Button
+// TODO: Notification
+// TODO: Motion Layout -> motion_scene criado
+
