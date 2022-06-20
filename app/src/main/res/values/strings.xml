@@ -17,4 +17,15 @@
     <string name="seila_download">https://github.com/udacity/nd940-c3-advanced-android-programming-project-starter</string>
     <string name="retrofit_download">https://github.com/square/retrofit</string>
 
+    <string name="glide_string">Glide - Image Loading Library by BumpTech</string>
+    <string name="loadapp_string">LoadApp - Current repository by Udacity</string>
+    <string name="retrofit_string">Retrofit - Type-safe HTTP client for Android and Java by Square, Inc</string>
+
+    <string name="download_image_description">Download Image</string>
+    
+    <string name="file_name">File Name:</string>
+    <string name="status">Status:</string>
+    <string name="fail">Fail</string>
+    <string name="success">Success</string>
+
 </resources>
