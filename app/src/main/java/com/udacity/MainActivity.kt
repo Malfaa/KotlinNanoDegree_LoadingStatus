@@ -24,7 +24,7 @@ import kotlinx.android.synthetic.main.content_main.*
 
 class MainActivity : AppCompatActivity() {
 
-    private var downloadID: Long = 0        // TODO: MUDAR NOME PARECIDO COM O DO CARA
+    private var downloadID: Long = 0
 
     private lateinit var notificationManager: NotificationManager
 

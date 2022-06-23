@@ -21,10 +21,10 @@ class LoadingButton @JvmOverloads constructor(
 
     private var valueAnimator = ValueAnimator.ofInt(0, 360)
 
-    private var textColor = 0
-    private var backgroudColor = 0
-    private var accentColor = 0
-    private var loadingColor = 0
+    private var textColor by Delegates.notNull<Int>()
+    private var backgroudColor by Delegates.notNull<Int>()
+    private var accentColor by Delegates.notNull<Int>()
+    private var loadingColor by Delegates.notNull<Int>()
 
     private var downloadString = context.getString(R.string.download)
     private var loadingString = context.getString(R.string.button_loading)
