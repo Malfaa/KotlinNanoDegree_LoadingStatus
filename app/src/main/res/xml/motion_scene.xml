@@ -4,22 +4,39 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
     <ConstraintSet
         android:id="@+id/start">
-<!--        <Constraint-->
-<!--            android:id="startvalue"/>-->
+        <Constraint
+            android:id="@id/status_result"
+            android:scaleX="0.5"
+            android:scaleY="0.5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="@+id/file_result"
+            app:layout_constraintTop_toTopOf="@+id/status_title"/>
     </ConstraintSet>
 
     <ConstraintSet
         android:id="@+id/end">
-<!--        <Constraint-->
-<!--            android:id="endvalue"/>-->
+        <Constraint
+            android:id="@id/status_result"
+            android:scaleX="1.0"
+            android:scaleY="1.0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="@+id/file_result"
+            app:layout_constraintTop_toTopOf="@+id/status_title"/>
 
     </ConstraintSet>
 
     <Transition
         app:constraintSetStart="@id/start"
-        app:constraintSetEnd="@id/end">
-        <KeyFrameSet
-            />
+        app:constraintSetEnd="@id/end"
+        app:autoTransition="animateToEnd"
+        app:duration="2000">
+        <KeyFrameSet>
+            <KeyAttribute
+                app:framePosition="35"
+                app:motionTarget="@id/status_result"/>
+        </KeyFrameSet>
 
     </Transition>
 </MotionScene>

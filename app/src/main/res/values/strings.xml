@@ -8,13 +8,18 @@
     <string name="notification_description">The Project 3 repository is downloaded</string>
     <string name="notification_button">See changes</string>
 
+    <string name="notification_channel_name">ND940C3-Channel</string>
+    <string name="notification_channel_name_description">ND940C3-Channel Description</string>
+
     <string name="button_name">Click me</string>
+    <string name="button_string">OK</string>
     <string name="button_loading">We are loading </string>
     <string name="title_activity_detail">DetailActivity</string>
 
+    <string name="download">Download</string>
 
     <string name="glide_download">https://github.com/bumptech/glide</string>
-    <string name="seila_download">https://github.com/udacity/nd940-c3-advanced-android-programming-project-starter</string>
+    <string name="load_download">https://github.com/udacity/nd940-c3-advanced-android-programming-project-starter</string>
     <string name="retrofit_download">https://github.com/square/retrofit</string>
 
     <string name="glide_string">Glide - Image Loading Library by BumpTech</string>

@@ -13,6 +13,7 @@
           <stringArguments>
             <stringArg name="classpath">
               <args>
+                <arg>$MODULE_DIR$/../../../app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4ee7d204fb67c55e646c9f8e75a88703/jetified-kotlin-android-extensions-runtime-1.6.21.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/07f83bb2c425590160b0f3b1e555bb49/jetified-kotlin-stdlib-jdk7-1.6.21.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7122bfbd5688d1c6d9d311c514c98594/jetified-core-ktx-1.8.0-api.jar</arg>
@@ -58,6 +59,7 @@
                 <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8a70e059de6e886a882d1907057d8171/jetified-annotation-experimental-1.1.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1b40e348c1ede4c8958f2e8ba3899935/constraintlayout-2.2.0-alpha02-api.jar</arg>
                 <arg>$USER_HOME$/Android/Sdk/platforms/android-32/android.jar</arg>
+                <arg>$USER_HOME$/Android/Sdk/build-tools/29.0.2/core-lambda-stubs.jar</arg>
               </args>
             </stringArg>
             <stringArg name="destination" arg="$MODULE_DIR$/../../../app/build/tmp/kotlin-classes/debug" />
@@ -109,7 +111,7 @@
       </configuration>
     </facet>
   </component>
-  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_7" inherit-compiler-output="true">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../app/build/generated/aidl_source_output_dir/debug/out" />
     <content url="file://$MODULE_DIR$/../../../app/build/generated/ap_generated_sources/debug/out">

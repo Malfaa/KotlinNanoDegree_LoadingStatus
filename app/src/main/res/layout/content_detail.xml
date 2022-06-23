@@ -13,61 +13,64 @@
 
 
     <TextView
-        android:id="@+id/file_name"
-        style="@style/details_text_settings"
+        android:id="@+id/file_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/radial_margin"
         android:text="@string/file_name"
+        android:textSize="@dimen/detail_text_size"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/status_ver"
-        style="@style/details_text_settings"
+        android:id="@+id/status_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
         android:text="@string/status"
-        app:layout_constraintEnd_toEndOf="@+id/file_name"
+        android:textSize="@dimen/detail_text_size"
+        app:layout_constraintEnd_toEndOf="@+id/file_title"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/file_name"
-        app:layout_constraintTop_toBottomOf="@+id/file_name" />
+        app:layout_constraintStart_toStartOf="@+id/file_title"
+        app:layout_constraintTop_toBottomOf="@+id/file_title" />
 
     <TextView
-        android:id="@+id/file"
-        style="@style/details_text_settings"
+        android:id="@+id/file_result"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        app:layout_constraintVertical_bias="0.0"
         android:layout_marginStart="@dimen/distance_in_detail_content"
         android:layout_marginEnd="@dimen/distance_in_detail_content"
         android:text=""
-        app:layout_constraintBottom_toBottomOf="@+id/file_name"
+        android:textColor="@color/black"
+        android:textSize="@dimen/detail_text_size"
+        app:layout_constraintBottom_toBottomOf="@+id/file_title"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/file_name"
-        app:layout_constraintTop_toTopOf="@+id/file_name"
+        app:layout_constraintStart_toEndOf="@+id/file_title"
+        app:layout_constraintTop_toTopOf="@+id/file_title"
+        app:layout_constraintVertical_bias="0.0"
         tools:text="@string/glide_string" />
 
     <TextView
-        android:id="@+id/status"
-        style="@style/details_text_settings"
+        android:id="@+id/status_result"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text=""
-        app:layout_constraintBottom_toBottomOf="@+id/status_ver"
-        app:layout_constraintStart_toStartOf="@+id/file"
-        app:layout_constraintTop_toTopOf="@+id/status_ver"
+        android:textColor="@color/black"
+        android:textSize="@dimen/detail_text_size"
+        app:layout_constraintBottom_toBottomOf="@+id/status_title"
+        app:layout_constraintStart_toStartOf="@+id/file_result"
+        app:layout_constraintTop_toTopOf="@+id/status_title"
         tools:text="@string/success" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/ok_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/detail_text_size"
         android:layout_marginEnd="@dimen/detail_text_size"
         android:layout_marginBottom="@dimen/overall_margin"
-        android:text="@string/button_name"
+        android:background="@color/colorAccent"
+        android:text="@string/button_string"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"

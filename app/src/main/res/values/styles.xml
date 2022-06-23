@@ -22,8 +22,4 @@
         <item name="android:textColor">@color/black</item>
     </style>
 
-    <style name="details_text_settings">
-        <item name="android:textSize">@dimen/detail_text_size</item>
-    </style>
-
 </resources>
