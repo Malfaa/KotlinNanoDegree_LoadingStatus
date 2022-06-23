@@ -103,7 +103,7 @@ class LoadingButton @JvmOverloads constructor(
 
         paint.color = loadingColor
         canvas?.drawRect(0f, 0f, (width * progress/360f), height.toFloat(), paint)
-
+        //both of this just draw because of progress. When it is greater then 0, it will draw
         paint.color = accentColor
         canvas?.drawArc(rect, 0f,progress.toFloat(), true, paint)
 
