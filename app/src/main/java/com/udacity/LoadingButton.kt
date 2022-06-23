@@ -19,7 +19,7 @@ class LoadingButton @JvmOverloads constructor(
     private var widthSize = 0
     private var heightSize = 0
 
-    private var valueAnimator = ValueAnimator.ofInt(0, 360)
+    private var valueAnimator = ValueAnimator()
 
     private var textColor by Delegates.notNull<Int>()
     private var backgroudColor by Delegates.notNull<Int>()
@@ -66,7 +66,8 @@ class LoadingButton @JvmOverloads constructor(
 
         buttonState = ButtonState.Completed
 
-        valueAnimator.setDuration(2500).apply {
+        valueAnimator = ValueAnimator.ofInt(0, 360).apply {
+            duration = 2500
             addUpdateListener {
                 progress = (it.animatedValue) as Int
                 invalidate()
